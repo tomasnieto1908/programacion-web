@@ -1,0 +1,20 @@
+.centrar {
+  text-align: center;
+}
+
+.centrar2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.borde {
+  border: 1px solid #0c08f5;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+.borde2 {
+  border: 1px solid #cf1313;
+  border-radius: 10px;
+  padding: 20px;
+}
