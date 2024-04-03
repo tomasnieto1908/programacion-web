@@ -1,0 +1,66 @@
+.alinear{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+   gap: 10px;
+
+}
+
+.tamaño{
+    width: 80%;
+    aspect-ratio: 1 / 2; 
+    padding-left: 10px;
+    object-fit: cover;
+      
+}
+.centerm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+
+}
+
+  .encabezado {
+    background-image:url("./fondo.jpeg");
+
+  }
+
+
+  .centrar2 {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+  }
+
+
+  .centrar {
+    text-align: center;
+    color: white;
+    background-color: #cd18f1;
+    border-radius: 30px;
+  }
+
+  .centrar1 {
+    text-align: center;
+    color: white;
+    background-color: #0011fc;
+    border-radius: 30px;
+    
+  }
+
+
+
+  h3{
+    font-weight: 200;
+  }
+
+  h1{
+    font-weight: 200;
+  }
+
+
+  a{
+    color:rgb(255, 0, 234)
+  }
+    

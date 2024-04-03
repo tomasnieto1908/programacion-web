@@ -10,6 +10,9 @@
   display: flex;
   gap: 20px;
 }
+.center{
+  
+}
 
 .foto {
   width: 200px;
@@ -17,7 +20,6 @@
 .linea {
   border-top: solid 3px blue;
   border-bottom: solid 0.5px blue;
-  border-left: solid 3px #0c08f5;
 }
 
 .cajaizquierda {
