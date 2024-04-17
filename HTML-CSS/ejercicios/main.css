@@ -8,6 +8,18 @@
     justify-content: center;
   }
 
+
+  .center3{
+    display: grid;
+    grid-template-rows: 400px  450px  48px;
+    grid-template-columns: 300px 330px 350px;
+    gap: 10px;
+}
+
+
+
+
+
   .alinear{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
@@ -28,4 +40,36 @@
     align-items: center;
     color: #1605f8;
 }
+
+
+
+.cuadrilla{
+  display: grid;
+  grid-template-columns: repeat(3,300px);
+  grid-template-rows: repeat(3, 400px);
+  gap: 30px;
+}
+
+
+.centrar1 {
+  text-align: center;
+  color: white;
+  background: linear-gradient(#e00808, hsl(234, 91%, 45%));
+  border-radius: 30px;
   
+}
+
+
+
+.tamaño{
+  width: 80%;
+  aspect-ratio: 1 / 1; 
+  padding-left: 10px;
+  object-fit:cover ;
+    
+}
+
+
+
+  
+
