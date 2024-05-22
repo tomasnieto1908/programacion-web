@@ -1,0 +1,3 @@
+1-en la consola se va a imprimir 70 y 180 porque es el valor de los parametros 
+2-tira un error porque age no esta definido porque se reazigna el valor y pasa a llamarse presonage
+3-el atajo es Destructuración
