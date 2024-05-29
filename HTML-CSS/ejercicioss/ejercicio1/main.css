@@ -1,0 +1,16 @@
+.head {
+  width: 20%;
+  background-color: #0817ee;
+  font-family: sans-serif;
+}
+
+.lista {
+  border: 5px solid #0011ff;
+  margin: 25px 20px 55px 60px;
+  padding: 50px 50px 50px 50px;
+}
+
+.imagen {
+  border-radius: 50px;
+  width: 200px;
+}

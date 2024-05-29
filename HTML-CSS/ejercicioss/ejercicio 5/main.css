@@ -1,0 +1,49 @@
+.azul {
+  background-color: blue;
+}
+
+.amarillo {
+  color: hsl(0, 0%, 0%);
+  background-color: yellow;
+}
+
+.racing {
+  background-color: skyblue;
+}
+
+.rojo {
+  color: #fcfcfc;
+  background-color: red;
+}
+
+.azul {
+  color: #fcfcfc;
+  background-color: #0206f5;
+}
+
+.article {
+  margin: 10px;
+  padding: 5px;
+}
+
+.all-browsers {
+  margin: 0;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+.all-browsers > h1,
+.browser {
+  margin: 10px;
+  padding: 5px;
+}
+
+.browser {
+  background: white;
+}
+
+.browser > h2,
+p {
+  margin: 4px;
+  font-size: 90%;
+}
