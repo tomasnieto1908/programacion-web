@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: hsl(0, 2%, 38%);
+  color: hsl(0, 61%, 34%);
+}
+
+.navbar {
+  background-color: #171718e8;
+  color: hsl(0, 100%, 51%);
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.navbar ul li:hover {
+  text-decoration: underline;
+}
+
+.home-header {
+  background-color: hwb(0 13% 86%);
+  color: hsl(0, 84%, 48%);
+  padding: 20px;
+  text-align: center;
+}
+
+.about,
+.projects,
+.resume {
+  padding: 20px;
+  margin: 20px;
+  background-color: hsl(0, 3%, 38%);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.link {
+  color: red;
+}
