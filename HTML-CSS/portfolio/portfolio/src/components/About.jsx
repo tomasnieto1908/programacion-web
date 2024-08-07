@@ -6,7 +6,7 @@ function About() {
       <h2>Sobre Mí</h2>
       <p>
         Hola, soy Tomas Nieto Rossi. estudio Tecnologías de la información y la
-        comunicación (tics) en la etec UBA
+        comunicación (tics) en la etec UBA . Estoy cursanso 5to año
       </p>
     </div>
   );

@@ -2,8 +2,8 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: hsl(0, 2%, 38%);
-  color: hsl(0, 61%, 34%);
+  background-color: hwb(0 23% 76%);
+  color: hwb(0 0% 3%);
 }
 
 .navbar {
@@ -40,11 +40,42 @@ body {
 .resume {
   padding: 20px;
   margin: 20px;
-  background-color: hsl(0, 3%, 38%);
+  background-color: hsl(0, 4%, 14%);
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .link {
-  color: red;
+  color: rgb(255, 0, 0);
+}
+
+body {
+  background-color: hwb(0 23% 76%);
+  font-size: 16px;
+}
+
+.orientation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-color: hwb(0 23% 76%);
+  }
+
+  .orientation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Estilos para tablets */
+@media (min-width: 601px) and (max-width: 1024px) {
+  body {
+    background-color: hwb(0 23% 76%);
+    font-size: 18px;
+  }
 }

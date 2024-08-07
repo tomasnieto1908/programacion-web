@@ -12,14 +12,6 @@ function Projects() {
       <div className="project">
         <h3>conversor de moneda</h3>
         <p>Hice un conversor de monedas con react.</p>
-        <p>aca esta mi git hub donde estan todos mis Proyectos</p>
-        <a
-          className="link"
-          href="https://github.com/tomasnieto1908"
-          target="_blank"
-        >
-          tomasnieto1908
-        </a>
       </div>
     </div>
   );

@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar.jsx";
 import Home from "./components/Home.jsx";
 import About from "./components/About.jsx";
 import Projects from "./components/Projects.jsx";
+import Footer from "./components/footer.jsx";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -26,6 +27,7 @@ function App() {
     <div>
       <Navbar setCurrentPage={setCurrentPage} />
       {renderPage()}
+      <Footer />
     </div>
   );
 }
