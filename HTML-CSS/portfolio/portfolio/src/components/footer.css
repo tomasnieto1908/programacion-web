@@ -3,11 +3,12 @@
   justify-content: center;
   align-items: center;
   padding: 20px;
-  background-color: rgb(46, 42, 42);
-  color: hwb(0 0% 4%);
+  background-color: hsl(0, 0%, 6%);
+  color: hsl(0, 97%, 37%);
   position: fixed;
   bottom: 0;
   width: 100%;
+  gap: 10px;
 }
 
 .footer p {

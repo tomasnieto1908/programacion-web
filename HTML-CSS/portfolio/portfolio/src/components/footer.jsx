@@ -1,4 +1,6 @@
 import React from "react";
+import { FaGithub, FaEnvelope, FaInstagram, FaWhatsapp } from "react-icons/fa";
+
 import "./footer.css";
 
 const Footer = () => {
@@ -10,11 +12,32 @@ const Footer = () => {
           className="link"
           href="https://github.com/tomasnieto1908"
           target="_blank"
+          rel="noopener noreferrer"
         >
-          tomasnieto1908
+          <FaGithub className="footer-icon" />
         </a>
       </p>
-      <p>tomasnieto249@gmail.com</p>
+      <a className="link" href="mailto:tomasnieto249@gmail.com">
+        <FaEnvelope className="footer-icon" />
+      </a>
+
+      <a
+        className="link"
+        href="https://www.instagram.com/ttomass9_"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FaInstagram className="footer-icon instagram" />
+      </a>
+
+      <a
+        className="link"
+        href="https://wa.me/+5491162903400"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FaWhatsapp className="footer-icon whatsapp" />
+      </a>
     </footer>
   );
 };
