@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaEnvelope, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaGithub, FaEnvelope, FaInstagram } from "react-icons/fa";
 
 import "./footer.css";
 
@@ -28,15 +28,6 @@ const Footer = () => {
         rel="noopener noreferrer"
       >
         <FaInstagram className="footer-icon instagram" />
-      </a>
-
-      <a
-        className="link"
-        href="https://wa.me/+5491162903400"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <FaWhatsapp className="footer-icon whatsapp" />
       </a>
     </footer>
   );

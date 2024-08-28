@@ -88,8 +88,9 @@ body {
 .projects-images {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
   gap: 20px;
-  flex-wrap: wrap;
 }
 
 .project p {
@@ -100,9 +101,10 @@ body {
 
 .achicar {
   max-width: 100%;
-  height: 50%;
   border-radius: 8px;
 }
+
 .padding {
-  padding-bottom: 60%;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
